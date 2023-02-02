@@ -39,7 +39,7 @@ export const CostInput: React.FC<InputProps> = ({
 }) => {
   const [value, setValue] = useState<number | undefined>(initialValue);
 
-  const inputSize = Math.round(placeholder?.length * 0.2) || size;
+  const inputSize = Math.round(placeholder?.length * 0.5) || size;
 
   const inputRef = useRef<HTMLInputElement>(null);
 
