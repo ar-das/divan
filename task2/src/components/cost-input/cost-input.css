@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
   margin: 5px;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   font-size: 32px;
 }
@@ -92,5 +92,5 @@ input::-webkit-inner-spin-button {
   opacity: 1;
   visibility: visible;
   font-size: 14px;
-  transform: translateY(-29px);
+  transform: translateY(-33px);
 }
